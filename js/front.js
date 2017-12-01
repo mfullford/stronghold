@@ -1,3 +1,23 @@
+window.sr = ScrollReveal();
+// set inside () to reappear each time { reset: true }
+
+sr.reveal('.categories', { 
+  origin: 'right', 
+  duration: 2000 
+});
+
+sr.reveal('men-collection', { 
+  origin: 'right', 
+  duration: 2000 
+});
+
+sr.reveal('.products-slider', { 
+  origin: 'right', 
+  duration: 2000 
+});
+
+
+
 $(function () {
 
     utils();

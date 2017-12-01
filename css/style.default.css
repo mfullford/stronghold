@@ -1315,15 +1315,15 @@ section.categories .item span {
   text-align: center;
   line-height: 40px;
   border: 1px solid #ddd;
-  color: #777;
+  color: #4F7CAC;
   text-decoration: none;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
 }
 
 .product .hover-overlay a:hover {
-  color: #9055A2;
-  border-color: #9055A2;
+  color: #4F7CAC;
+  border-color: #03256C;
 }
 
 .product .hover-overlay a:first-of-type {
@@ -1340,7 +1340,7 @@ section.categories .item span {
 
 .product .hover-overlay a.active {
   width: 120px;
-  background: rgba(79, 124, 172, 1);
+  background: #4F7CAC;
   color: #fff;
   border-color: transparent;
   font-weight: 300;
@@ -1427,7 +1427,7 @@ section.divider .btn, section.divider .btn-template-outlined {
 }
 
 .post h4 a:focus, .post h4 a:hover {
-  color: #9055A2;
+  color: #4F7CAC;
   text-decoration: none;
 }
 
@@ -1528,7 +1528,7 @@ footer.main-footer .services-block div[class*='col-']:last-of-type {
 }
 
 footer.main-footer .services-block .item:hover .icon {
-  color: #9055A2;
+  color: #4F7CAC;
 }
 
 footer.main-footer .services-block .icon {
@@ -1575,7 +1575,7 @@ footer.main-footer .info a {
 }
 
 footer.main-footer .info a:hover {
-  color: #9055A2;
+  color: #4F7CAC;
 }
 
 footer.main-footer .site-links a {
@@ -1586,7 +1586,7 @@ footer.main-footer .site-links a {
 }
 
 footer.main-footer .site-links a:hover {
-  color: #9055A2;
+  color: #4F7CAC;
 }
 
 footer.main-footer .newsletter p {
@@ -1653,7 +1653,7 @@ footer.main-footer .copyrights a {
 }
 
 footer.main-footer .copyrights a:hover {
-  color: #9055A2;
+  color: #4F7CAC;
 }
 
 footer.main-footer .copyrights p,
@@ -1734,7 +1734,7 @@ footer.main-footer .copyrights ul.payment-list img {
   height: 50px;
   text-align: center;
   line-height: 50px;
-  background: #9055A2;
+  background: #03256C;;
   color: #fff;
   position: absolute;
   top: 0;
@@ -1767,7 +1767,7 @@ footer.main-footer .copyrights ul.payment-list img {
 
 .overview .price .current {
   font-weight: 600;
-  color: #9055A2;
+  color: #03256C;
 }
 
 .overview p {
@@ -2027,8 +2027,8 @@ section.product-description a.nav-link {
 }
 
 section.product-description a.nav-link.active, section.product-description a.nav-link:hover, section.product-description a.nav-link:focus {
-  color: #03256C;
-  border-color: #03256C #03256C #03256C;
+  color: #4F7CAC;
+  border-color: #03256C;
 }
 
 section.product-description ul.additional-information {
@@ -3285,7 +3285,7 @@ STYLE SWITCHER FOR DEMO
 
 .btn-light:hover {
   color: color-yiq(#e2e6ea);
-  background-color: #e2e6ea;
+  background-color: #4F7CAC;
   border-color: #dae0e5;
 }
 
@@ -3316,7 +3316,7 @@ STYLE SWITCHER FOR DEMO
 
 .btn-dark:hover {
   color: color-yiq(#23272b);
-  background-color: #23272b;
+  background-color: #4F7CAC;
   border-color: #1d2124;
 }
 
@@ -3412,7 +3412,7 @@ STYLE SWITCHER FOR DEMO
 
 .btn-outline-success:hover {
   color: #fff;
-  background-color: #28a745;
+  background-color: #4F7CAC;
   border-color: #28a745;
 }
 
@@ -3444,7 +3444,7 @@ STYLE SWITCHER FOR DEMO
 
 .btn-outline-info:hover {
   color: #fff;
-  background-color: #17a2b8;
+  background-color: #4F7CAC;
   border-color: #17a2b8;
 }
 
@@ -3508,7 +3508,7 @@ STYLE SWITCHER FOR DEMO
 
 .btn-outline-danger:hover {
   color: #fff;
-  background-color: #dc3545;
+  background-color: #4F7CAC;
   border-color: #dc3545;
 }
 
@@ -3525,7 +3525,7 @@ STYLE SWITCHER FOR DEMO
 .btn-outline-danger:not([disabled]):not(.disabled):active, .btn-outline-danger:not([disabled]):not(.disabled).active,
 .show > .btn-outline-danger.dropdown-toggle {
   color: #fff;
-  background-color: #dc3545;
+  background-color: #4F7CAC;
   border-color: #dc3545;
   -webkit-box-shadow: 0 0 0 0.2rem rgba(220, 53, 69, 0.5);
   box-shadow: 0 0 0 0.2rem rgba(220, 53, 69, 0.5);
@@ -3540,7 +3540,7 @@ STYLE SWITCHER FOR DEMO
 
 .btn-outline-light:hover {
   color: #fff;
-  background-color: #f8f9fa;
+  background-color: #4F7CAC;
   border-color: #f8f9fa;
 }
 
@@ -3572,7 +3572,7 @@ STYLE SWITCHER FOR DEMO
 
 .btn-outline-dark:hover {
   color: #fff;
-  background-color: #343a40;
+  background-color: #4F7CAC;
   border-color: #343a40;
 }
 
@@ -3622,12 +3622,12 @@ body {
 }
 
 a {
-  color: #9055A2;
+  color: #4F7CAC;
   text-decoration: none;
 }
 
 a:focus, a:hover {
-  color: #633b70;
+  color: #4F7CAC;
   text-decoration: underline;
 }
 

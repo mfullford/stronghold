@@ -1,0 +1,29 @@
+{
+  "name": "stronghold",
+  "version": "1.0.0",
+  "description": "website for knives",
+  "main": "contact.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "dependencies": {
+    "scrollreveal": "^3.3.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mfullford/stronghold.git"
+  },
+  "keywords": [
+    "stronghold"
+  ],
+  "author": "marissa fullford",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mfullford/stronghold/issues"
+  },
+  "homepage": "https://github.com/mfullford/stronghold#readme"
+}
