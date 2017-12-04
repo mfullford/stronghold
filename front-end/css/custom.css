@@ -1,6 +1,12 @@
+/*header {
+	position: fixed;
+	z-index: 999;
+	width: 100%;
+	top: 0;
+}*/
 #bonsai {
 	max-width: 110px;
-	margin-top: 26px;
+	margin-top: 10px;
 	margin-left: 10px;
 }
 #bonsai2 {
@@ -15,13 +21,14 @@
 }
 
 .first {
-	margin-top: -10%;
-	padding: 40px;
-	margin-bottom: 12px;
+	margin-top: -9%;
+	padding: 15px;
 	text-align: center;
 	font-family: 'Russo One', sans-serif;
 	font-size: 50px;
-	background-color: #C0BCB5;
+	/*background-color: #C0BCB5;*/
+	background-image: url(https://cdn.stylepark.com/manufacturers/h/homapal/produkte/brushed-black/_1410xAUTO_fit_center-center_90/brushed-black-1.jpg);
+	text-shadow: -1px -1px 0 #FFF, 1px -1px 0 #FFf, -1px 1px 0 #FF9, 1px 1px 0 #FFF;
 	color: #03256C;
 	border-bottom: 8px solid black;
 }
@@ -29,8 +36,11 @@
 #tagline {
 	text-align: center;
 	margin-bottom: 5px;
-	margin-top: -10px;
+	margin-top: -5px;
 	font-size: 20px;
+	color: white;
+	text-shadow: none;
+	font-family: "Poppins", sans-serif;
 }
 
 .fa {
@@ -107,12 +117,27 @@ animation-delay: 1.6s;
 .nav-link:hover {
 	background-color: rgba(79, 124, 172, 0.8);
 	color: white;
+	padding-bottom: 12px;
+	border-radius: 3px;
+}
+
+.navi {
+/*	position: fixed;
+	z-index: 999;
+	width: 100%;*/
+	background-color: white;
+	padding: 10px;
+	margin-bottom: 2px;
+/*	border: 1px solid black;*/
 }
 li {
 	display: inline;
 	margin-left: 9%;
 }
 
+.hero {
+	/*margin-top: 180px;*/
+}
 .merry {
 	display: block;
 	margin-left: 1px;
@@ -265,10 +290,19 @@ label {
 /*Contact*/
 
 .contact {
-	margin-top: 90px;
+	margin-top: 40px;
 	padding: 20px;
 }
 
+.center {
+	/*margin-left: 25%;*/
+	width: 100%;
+	margin-top: 30px;
+}
+
+.email {
+	margin-bottom: 0px;
+}
 /*Shop*/
 
 .breakdown {

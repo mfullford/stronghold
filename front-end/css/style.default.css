@@ -21,7 +21,7 @@ body {
 }
 
 section {
-  padding: 100px 0;
+  padding: 50px 0;
 }
 
 section header {
@@ -1205,7 +1205,7 @@ section.categories a {
 section.categories .item {
   min-height: 170px;
   background-color: #f5f5f5;
-  padding: 20px;
+  padding: 10px;
   background-position: top right !important;
   background-size: auto 100%;
   background-repeat: no-repeat;
@@ -2238,7 +2238,7 @@ section.product-description strong {
 * ===================================================
 */
 .products-grid {
-  padding: 100px 0;
+  padding: 40px 0;
 }
 
 .products-grid .product {
@@ -3660,6 +3660,7 @@ h2,
 .h2 {
   font-size: 2rem;
   border-bottom: 2px solid black;
+  margin-bottom: 15px;
 }
 
 h3,
