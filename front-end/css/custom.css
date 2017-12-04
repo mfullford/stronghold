@@ -110,7 +110,7 @@ animation-delay: 1.6s;
 }
 li {
 	display: inline;
-	margin-left: 10%;
+	margin-left: 9%;
 }
 
 .merry {
@@ -268,3 +268,26 @@ label {
 	margin-top: 90px;
 	padding: 20px;
 }
+
+/*Shop*/
+
+.breakdown {
+	margin-top: 40px;
+}
+
+.lightbeam {
+	margin-top: 8px;
+	margin-bottom: 8px;
+}
+
+.lightbeam:hover {
+	background-color: #4F7CBD;
+	opacity: .8;
+	max-width: 85%;
+	color: white;
+	border-radius: 3px;
+	padding-left: 8px;
+}
+
+
+
