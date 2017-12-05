@@ -38,3 +38,4 @@ Also, Nick is full of garbage PHP is the shit. It was so easy to learn how to us
 Can be found on my [Trello](https://trello.com/b/XXWvWqaE/stronghold-custom-knives).
 
 
+![giphy](https://user-images.githubusercontent.com/31824846/33633645-c3fafc80-d9ce-11e7-85de-d5a6237ca66d.gif)
