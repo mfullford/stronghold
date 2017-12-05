@@ -298,6 +298,10 @@ label {
 	border-color: #03256C;
 }
 
+#bowie {
+	max-height: 400px;
+	width: 400px;
+}
 
 /*Contact*/
 
@@ -334,6 +338,27 @@ label {
 	border-radius: 3px;
 	padding-left: 8px;
 }
+
+/*Thanks*/
+
+.envi {
+	float: left;
+	margin-right: 10px;
+}
+
+.container2 {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-right: 70px;
+	padding-left: 90px;
+	width: 70%;
+}
+
+
+
+
+
+
 
 
 

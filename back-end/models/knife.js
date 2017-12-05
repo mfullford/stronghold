@@ -1,15 +1,14 @@
 // run mongoose to make a database
 var mongoose = require("mongoose");
-// create schema variable
 var Schema = mongoose.Schema;
 
-// Create hike schema
-let knifeSchema = new Schema({
-	name: String
+let reviewSchema = new Schema({
+	name: String,
+	rating: Number,
+	review: String
 });
 
-//make the schema a model
-let Knife = mongoose.model('Knife', knifeSchema);
+let Review = mongoose.model('Review', reviewSchema);
 
-//export the Hike model
-module.exports = Knife;
+
+module.exports = Review;

@@ -20,7 +20,7 @@ https://git.heroku.com/evening-eyrie-78865.git
 
 ### Deployment
 
-Getting your second site off the ground on Dreamhost is a little bit more complicated than I expected, but also much easier? Since I had already paid to host, I didn't have to pay another hosting fee. Which confused me a ton, but is awesome. I also deplyed my API to Heroku which I pushed off until the end because we all know hwo Heroku is, but at this point it was fairly easy using the instructions we had had in an earlier lesson.
+Getting your second site off the ground on Dreamhost is a little bit more complicated than I expected, but also much easier? Since I had already paid to host, I didn't have to pay another hosting fee. Which confused me a ton, but is awesome. I also deplyed my API to Heroku which I pushed off until the end because we all know hwo Heroku is, but at this point it was fairly easy using the [instructions](https://github.com/SF-WDI-LABS/shared_modules/blob/master/how-to/heroku-mean-stack-deploy.md) we had had in an earlier lesson.
 
 ### Things I Learned
 

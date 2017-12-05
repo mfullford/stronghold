@@ -58,7 +58,6 @@
           <div class="first"> Steadfast Custom Knives 
           <div id="tagline"> An heirloom tool company </div>
           </div>
-         <!--  <button type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler navbar-toggler-right" id="hamburger"><i class="fa fa-bars"></i></button> -->
           <!-- Navbar Collapse -->
           <ul class="navi" id="navi">
               <li class="nav-item"><a href="index.html" class="nav-link active">Home</a>
@@ -70,8 +69,7 @@
               <li class="nav-item"><a href="about.html" class="nav-link">About</a>
               </li>
               <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a>
-              </li>
-              
+              </li>         
         </div>
       </nav>
     </header>
@@ -95,7 +93,8 @@
     <!-- form -->
   <section class="padding-small">
       <div class="container form">
-        <form id="contact-form" method="post" action="contact.php" role="form">
+        <div class="controls">
+        <!-- <form id="contact-form" method="post" action="contact.php" role="form">
           <div class="messages"></div>
             <div class="controls">
             <div class="form-group">
@@ -106,21 +105,21 @@
               <label for="size">Size:</label>
               <input type="text" class="form-control" id="size" placeholder="4-12 inches">
             </div>
-            <!-- Metal -->
-            <div class="form-group">
-              <label for="metal">Metal:</label>
+            <! Metal -->
+            <!-- <div class="form-group">
+              <label for="metal">Metal:</label> -->
               <!-- <input type="text" class="form-control" id="metal" placeholder="See types we have offered on the home page"> -->
-            <select id="metal" class="bs-select dropdown">
+            <!-- <select id="metal" class="bs-select dropdown">
                     <option value="small">5160</option>
                     <option value="meduim">1095</option>
                   </select>            
-            </div>
+            </div> -->
             <!-- Wood -->
-            <div class="form-group">
+            <!-- <div class="form-group">
               <label for="wood">Wood:</label>
-            </br>
+            </br> -->
               <!-- <input type="text" class="form-control" id="wood" placeholder="See types we have offered on the home page"> -->
-                <input type="checkbox" value="padauk" class="regular-checkbox"><div class="form-text">Padauk</div></option>
+                <!-- <input type="checkbox" value="padauk" class="regular-checkbox"><div class="form-text">Padauk</div></option>
                 <input type="checkbox" value="snakewood" class="regular-checkbox"><div class="form-text">Snakewood</div></option>
                 <input type="checkbox" value="bloodwood" class="regular-checkbox"><div class="form-text">Bloodwood</div></option>
                 <input type="checkbox" value="ironwood" class="regular-checkbox"><div class="form-text">Ironwood</div></option>
@@ -130,18 +129,18 @@
                 <input type="checkbox" value="tiger" class="regular-checkbox"><div class="form-text">Tiger</div>
                 <input type="checkbox" value="zebra" class="regular-checkbox"><div class="form-text">Zebra</div>
               </select>
-            </div>
+            </div> -->
             <!-- Lining -->
-            <div class="form-group">
+            <!-- <div class="form-group">
               <label for="metal">Lining:</label>
             <select id="metal" class="bs-select dropdown">
                     <option value="small">Black</option>
                     <option value="meduim">Red</option>
                     <option value="meduim">Blue</option>
                   </select>            
-            </div>
+            </div> -->
             <!-- Pin -->
-            <div class="form-group">
+             <!-- <div class="form-group">
               <label for="metal">Pin Material:</label>
             <select id="metal" class="bs-select dropdown">
                     <option value="small">Brass</option>
@@ -153,15 +152,94 @@
               <input type="text" class="form-control" id="message" placeholder="Please include any notes here">
             </div>
             <button type="submit" class="btn btn-default submission">Submit</button>
-          </form>
-        </div>
-      </div>
+          </form>  -->
 
+          <form action="order.php" method="post">
+                <div class="form-group">
+                <p><b>Your Full Name:</b> <input type="text" name="yourname" /><br />
+                </div>
+                <div class="form-group">
+                <b>E-mail:</b> <input type="text" name="email" /><br />
+              </div>
+
+                <p>What type of knife would you like?
+                <select name="knife">
+                <option value=""> -- Please select -- </option>
+                <option>Bowie</option>
+                <option>Drop Point</option>
+                <option>Straight-Back</option>
+                <option>Seax</option>
+                <option>Choppers</option>
+                <option>Camp</option>
+                <option>Bolo</option>
+                </select>
+
+                <div class="form-group">
+                <b>Size:</b> <input type="text" name="size" placeholder="Up to 14 in. long" /><br />
+                </div>
+
+                <p>What type of steel would you like?
+                <select name="steel">
+                <option value=""> -- Please select -- </option>
+                <option>5160</option>
+                <option>1095</option>
+                </select>
+
+                <p>Thickness?
+                <select name="how">
+                <option value=""> -- Please select -- </option>
+                <option>1/8 </option>
+                <option>3/16</option>
+                <option>1/4 (5160 only)</option>
+                </select>
+
+                <div class="form-group">
+                <label for="wood">Wood:</label>
+                </br>
+              <!-- <input type="text" class="form-control" id="wood" placeholder="See types we have offered on the home page"> -->
+                <input type="checkbox" name="wood" value="padauk" class="regular-checkbox"><div class="form-text">Padauk</div></option>
+                <input type="checkbox" name="wood" value="snakewood" class="regular-checkbox"><div class="form-text">Snakewood</div></option>
+                <input type="checkbox" name="wood" value="bloodwood" class="regular-checkbox"><div class="form-text">Bloodwood</div></option>
+                <input type="checkbox" name="wood" value="ironwood" class="regular-checkbox"><div class="form-text">Ironwood</div></option>
+                <input type="checkbox" name="wood" value="wenge" class="regular-checkbox"><div class="form-text">Wenge</div></option>
+                <input type="checkbox" name="wood" value="poison" class="regular-checkbox"><div class="form-text">Black Poison Wood</div></option>
+                <input type="checkbox" name="wood" value="peruvian" class="regular-checkbox"><div class="form-text">Peruvian Walnut</div>
+                <input type="checkbox" name="wood" value="tiger" class="regular-checkbox"><div class="form-text">Tiger</div>
+                <input type="checkbox" name="wood" value="zebra" class="regular-checkbox"><div class="form-text">Zebra</div>
+              </select>
+              </div>
+
+              <div class="form-group">
+              <label for="metal">Lining:</label>
+              <select name="lining" id="metal" class="bs-select dropdown">
+                    <option value="black">Black</option>
+                    <option value="red">Red</option>
+                    <option value="blue">Blue</option>
+                  </select>            
+            </div>
+
+            <div class="form-group">
+              <label for="metal">Pin Material:</label>
+                <select name="pin" id="metal" class="bs-select dropdown">
+                    <option value="brass">Brass</option>
+                    <option value="stainless">Stainless Steel</option>
+                </select>            
+            </div>
+                <p><b>Your comments:</b><br />
+                <textarea name="comments" rows="10" cols="40"></textarea></p>
+
+              <p><input type="submit" class="btn btn-default submission" value="Send it!"></p>
+
+            </form>
+          </div>
+        </div>
+
+</section>
        
     
- <!-- Footer-->
+  <!-- Footer -->
     <footer class="main-footer">
-      <!-- Service Block-->
+      <!-- <!-Service Block -->
       <div class="services-block">
         <div class="container">
           <div class="row">
@@ -203,7 +281,7 @@
             <div class="site-links col-lg-2 col-md-6">
               <h5 class="text-uppercase">Shop</h5>
               <ul class="list-unstyled">
-                <li> <a href="#">Knives</a></li>
+                <li> <a href="category.html">Knives</a></li>
               </ul>
             </div>
             <div class="site-links col-lg-2 col-md-6">
@@ -215,7 +293,7 @@
             <div class="site-links col-lg-2 col-md-6">
               <h5 class="text-uppercase">Order</h5>
               <ul class="list-unstyled">
-                <li> <a href="about.html">Form</a></li>
+                <li> <a href="blog.html">Form</a></li>
               </ul>
             </div>
             <div class="site-links col-lg-2 col-md-6">
@@ -234,10 +312,6 @@
             </div>
             <div class="payment col-md-6 clearfix">
               <ul class="payment-list list-inline-item pull-right">
-                <!-- <li class="list-inline-item"><img src="img/visa.svg" alt="..."></li>
-                <li class="list-inline-item"><img src="img/mastercard.svg" alt="..."></li> -->
-                <li class="list-inline-item"><img src="img/paypal.svg" alt="..."></li>
-                <!-- <li class="list-inline-item"><img src="img/western-union.svg" alt="..."></li> -->
               </ul>
             </div>
           </div>

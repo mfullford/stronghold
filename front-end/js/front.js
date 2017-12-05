@@ -16,6 +16,16 @@ sr.reveal('.products-slider', {
   duration: 2000 
 });
 
+sr.reveal('.intro', { 
+  origin: 'right', 
+  duration: 1200 
+});
+
+sr.reveal('.middle', { 
+  origin: 'left', 
+  duration: 1200 
+});
+
 
 
 $(function () {
