@@ -1,5 +1,8 @@
 # Steadfast Custom Knives
 
+![screen shot 2017-12-04 at 5 34 45 pm](https://user-images.githubusercontent.com/31824846/33633017-ab93d97a-d9cc-11e7-8e63-e36f91b3af91.png)
+
+
 An e-commerce website for a knife making company. This was initially to be done using PayPal, Shopify or something similar. However, the business owner did not want to create a business acount for this website and we settled ona simple order form and a Venmo account. Despite my pleading and the time I sunk into figuring this out, the customer is always right.
 
 Here is the [documentation for the PayPal API](https://developer.paypal.com/docs/classic/paypal-payments-standard/integration-guide/add_to_cart_step_1/) which was actually super helpful. 
@@ -27,6 +30,8 @@ Getting your second site off the ground on Dreamhost is a little bit more compli
 Creating a full-fledged website is HARD. There are so many details to nail and the more pages you create, the harder it is. The client, halfway thorugh the project period, decided he wanted to change the name of the company and the colors. That took changes in SO MANY spots. I definitely should have relied on Sass a little bit more than I did. Also, working with so many different pages is funny because you might change a CSS class property for one specific page, but then a few hours later when you go to a different page you realize that that change affected something else in a negative way. and  Had I known this was going to turn into my Project 4, I definitely would have used Angular, I think components would have made it much cleaner and easier for me to find things.
 
 Working with customers is really difficult for a number of reasons. They don't have a lot of opinions before you get started, but as you go they develop *strong* feelings about the decisions your making for the site. But if you're able to navigate working with them it can be super rewarding. I already have 2 more requests for sites on my plate!
+
+Also, Nick is full of garbage PHP is the shit. It was so easy to learn how to use. It's basically just english and JQuery.
 
 ### User Stories
 

@@ -267,6 +267,9 @@ li {
 	border-radius: 5px;
 }
 
+.form-control:click {
+	border-color: blue;
+}
 label {
 	margin-right: 10px;
 }
@@ -354,7 +357,15 @@ label {
 	width: 70%;
 }
 
-
+input {
+	text-align: center;
+	border-radius: 3px;
+	border-style: solid;
+	border-color: #D3D3D3;
+	border-width: 1px;
+/*	width: 40%;
+	height: 20%;*/
+}
 
 
 

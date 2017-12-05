@@ -1638,9 +1638,10 @@ footer.main-footer .newsletter button:hover {
 footer.main-footer .copyrights {
   background: #C0BCB5;
   color: #888;
-  padding: 3px 0;
+  padding: 10px;
   width: 100%;
-  margin-bottom: -50px;
+  margin-bottom: -20px;
+  text-align: center;
 }
 
 footer.main-footer .copyrights p {
